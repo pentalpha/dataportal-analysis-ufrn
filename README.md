@@ -12,11 +12,5 @@ http://dados.ufrn.br/
 - [4. Pelo menos dois gráficos de Linhas](4-lineGraphs.py)
 - [5. Pelo menos dois gráficos Blox Pot](5-boxPlots.py)
 - [6. Pelo menos dois gráficos de Correlação](6-correlation.py)
-Tabelas com dados correlacionaveis: 
-Patrimonio > Bens imóveis (valores e m² dos bens) 
-Pesquisa > Pesquisadores (projetos internos/externos/coordenador)
-Extensão > Produtos/Atividades de Extensão (tiragem do prod, bolsistas, publico alcançado)
-Extensão > 
-
 
 - [*Jupyter Notebook com a versão final do estudo*](Unidade1-FinalNotebook.ipynb)
