@@ -9,7 +9,7 @@ with open('bolsistas-de-iniciacao-cientifica.csv') as csvfile:
     readCSV = csv.reader(csvfile, delimiter='\t')
     for row in readCSV:
          situacao.append(row[14])
-    #print situacao
+    #print len(situacao)
     
     for i in range(0, len(situacao)):
         if situacao[i] == 'FINALIZADO':
@@ -19,6 +19,7 @@ with open('bolsistas-de-iniciacao-cientifica.csv') as csvfile:
         if situacao[i] == 'PENDENTE DE RELATORIO':
             quantidade[2] = (quantidade[2]+1)
     aux = ['Finalizado','Andamento', 'Pendente']        
+    #print quantidade
     y_pos = np.arange(len(aux))
     plt.bar(y_pos, quantidade)
     plt.xticks(y_pos, aux)
