@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 situacao = []
 quantidade = [0, 0, 0]
 
-with open('bolsistas-de-iniciacao-cientifica.csv') as csvfile:
+with open('bolsistas-de-iniciacao-cientifica.csv',encoding="utf8") as csvfile:
     readCSV = csv.reader(csvfile, delimiter='\t')
     for row in readCSV:
          situacao.append(row[14])
